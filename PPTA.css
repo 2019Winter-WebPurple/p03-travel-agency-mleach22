@@ -1,0 +1,34 @@
+/*
+* Megan Leach
+* April 9, 2019
+* Padua Panda Travel Agency
+*/
+
+/* The Universal Selector */
+
+* {
+
+}
+
+/* Body properties here */
+
+body {
+    width: 75%; /*centers the work on the page*/ 
+    margin: auto; /*specifies the margin space*/
+    background-color: azure; /*this is the color of the background for the page*/
+    font-family: Times New Roman, serif; /*specifies the font*/
+}
+
+#secret_beach {width: 800px; height: 450px;}
+#emerald_pool {width: 250px; height: 240px;}
+#trafalgar_falls {width: 800px; height: 450px; }/*this is the format of image sizing*/
+
+figure {float: right;}/*this will shift all of the images and figures to the right*/
+
+table, td, th {border: 1px solid black; }
+table {border-collapse: collapse; } /*these specify the border size on the table and make the border only 1 line*/
+
+table {background-color: mistyrose; } /*the background color for the table*/
+
+.lightcoral { color: lightcoral; } /*the changes I made to the class selector(made the font color light coral)*/
+#skyblue {color: deepskyblue; } /*the changes I made to the id selector (made the font color deep sky blue)*/
